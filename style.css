@@ -32,6 +32,11 @@
       line-height:1.45; padding-bottom:60px;
     }
 
+    em {
+      text-align: justify;
+    }
+
+
     .sun {
       display: inline-block;
       width: var(--icon-width);
