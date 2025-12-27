@@ -30,6 +30,12 @@
       background:linear-gradient(180deg,var(--bg),var(--bg)); color:var(--text);
       -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
       line-height:1.45; padding-bottom:60px;
+      overflow-x: hidden;
+    }
+
+    html{
+      scroll-behavior:smooth;
+      overflow-x: hidden; /* Add this */
     }
 
     em {
