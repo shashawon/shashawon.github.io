@@ -1,210 +1,356 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SRB — Web Portfolio</title>
-  <meta name="description" content="Sharon Rose Ballera - Aspiring Web Developer | EVSU BSIT Student" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=more_horiz" />
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="overlay-bg" id="overlayBg"></div>
-  <div class="wrap">
-    <header>
-      <div class="nav">
-        <div class="brand">
-          <div class="logo">SRB</div>
-          <div>
-            <div style="font-weight:700">Sharon Rose Ballera</div>
-            <div style="font-size:12px; color:var(--muted)">Final Project in Web Development | EVSU BSIT 2A</div>
-          </div>
-        </div>
-        <nav id="navMenu">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="controls">
-          <button id="themeBtn" class="btn" title="Toggle dark / light" aria-label="Toggle theme">
-            <span id="themeIcon" class="sun"></span>
-          </button>
-          <button id="menuToggle" class="btn" aria-label="Toggle menu">
-            <span class="material-symbols-outlined">
-                more_horiz
-            </span>
-          </button>
-          <a class="btn" href="#contact">Get in touch</a>
-        </div>
-      </div>
-    </header>
-
-    <main>
-      <section id="home" class="hero">
-        <div class="intro card">
-          <p class="tag">Eastern Visayas State University | IT Student</p>
-          <h1>Hi — I'm <span id="name">Sharon Rose B. Ballera</span></h1>
-          <p class="lead">I'm learning how to build small web apps and responsive websites. Currently learning modern JavaScript and deployment workflows.</p>
-          <p class="quote">"Even when you failed, at least you tried. Stop underestimating the potential you carry within you."</p>
-
-          <div style="margin-top:16px; display:flex; gap:10px; align-items:center; flex-wrap:wrap">
-            <a class="btn" href="#projects">See projects</a>
-            <a class="btn" href="#about">About me</a>
-          </div>
-        </div>
-
-        <div class="photo">
-          <div class="frame">
-            <img src="images/profile.jpg" alt="Sharon Rose Ballera professional photo">
-          </div>
-        </div>
-      </section>
-
-      <section id="about">
-        <div class="card">
-          <h2>About Me</h2>
-          <div class="about-grid">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SRB — Web Portfolio</title>
+    <meta
+      name="description"
+      content="Sharon Rose Ballera - Aspiring Web Developer | EVSU BSIT Student"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=more_horiz"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="overlay-bg" id="overlayBg"></div>
+    <div class="wrap">
+      <header>
+        <div class="nav">
+          <div class="brand">
+            <div class="logo">SRB</div>
             <div>
-              <p><strong>Education:</strong></p>
-              <p>
-                🌸 Albuera North Central School | 2012 - 2018<br>
-                🌸 Dr. Geronimo B. Zaldivar Memorial School of Fisheries | 2018 - 2021<br>
-                🌸 Seguinon Stand Alone Senior High School | 2021 - 2024<br>
-                <em>
-                  — With Honors | STEM 11<br>
-                  — Service Award | STEM 11<br>
-                  — With Honors | STEM 12<br>
-                  — BSP Service Award | STEM 12
-                </em><br>
-                🌸 Eastern Visayas State University | Present<br>
-                <em>— Bachelor of Science in Information Technology | 2nd Year</em>
-              </p>
-              <p><strong>Technical Interests:</strong> I'm excited to create and learn more about web development, networking fundamentals, database design, cybersecurity principles, and automation. I enjoy learning new tech tips and applying them to solve related problems.</p>
-            </div>
-            <div>
-              <p><strong>Hobbies:</strong> Reading books (fiction, Sci-Fi) and tech blogs, Minecrft, videography, learning musical instruments, exploring science topics, and astrology.</p>
-              <p><strong>Leadership & Activities:</strong></p>
-              <p>
-                🌸 UNITS Public Information Officer | 1st Year<br>
-                🌸 JPCS 2nd Year Representative | 2nd Year<br>
-                🌸 Boy Scout of the Philippines Member | 2023
-              </p>
-              <p>
-                For me learning something new is hard but according to Bob Ross "Every talent is a pursued interest"<br>
-                I believe that in continuous learning and working with people will help me reach my goal, step by step.
-              </p>
+              <div style="font-weight: 700">Sharon Rose Ballera</div>
+              <div style="font-size: 12px; color: var(--muted)">
+                Final Project in Web Development | EVSU BSIT 2A
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section id="skills">
-        <div class="card">
-          <h2>Skills</h2>
-          <div style="margin-bottom:16px">
-            <div class="skills">
-              <div class="skill">HTML5</div>
-              <div class="skill">CSS3</div>
-              <div class="skill">JavaScript</div>
-              <div class="skill">Git & GitHub</div>
-              <div class="skill">VSCode</div>
-              <div class="skill soft">Teamwork</div>
-              <div class="skill soft">Problem Solving</div>
-              <div class="skill soft">Communication</div>
-              <div class="skill soft">Adaptability</div>
-            </div>
-          </div>
-          <div style="margin-top:20px">
-            <h3 style="font-size:16px; margin-bottom:12px; color:var(--accent)">Certificates</h3>
-            <div class="certificates-grid">
-            <div class="certificate-item">
-              <img src="images/WebDev.png" alt="Certificate 1">
-            </div>
-            <div class="certificate-item">
-              <img src="images/Python.png" alt="Certificate 2">
-            </div>
-            <div class="certificate-item">
-              <img src="images/C.png" alt="Certificate 3">
-            </div>
-            </div>
-          </div>
-          <p class="muted"><strong>Technical Areas:</strong> Web Development (HTML, CSS, JavaScript), Database Management (MySQL), Computer Networking basics, Linux command-line operations, and Visual Basic programming.</p>
-        </div>
-      </section>
-
-      <section id="projects">
-        <div class="card">
-          <h2>Projects</h2>
-          <div class="projects-grid">
-            <article class="proj card">
-              <div class="thumb"><img src="images/signin.png" alt="Sign-up page interface mockup"></div>
-              <div>
-                <h3>Simple Sign-Up Page</h3>
-                <small>Role: Developer • Tools: HTML, CSS</small>
-                <p class="muted"><strong>Description:</strong> A clean, modern sign-up page featuring a streamlined registration form with icon-labeled input fields for first name, email, and password confirmation. Focused on user experience with clear visual hierarchy and accessible form design.</p>
-              </div>
-            </article>
-
-            <article class="proj card">
-              <div class="thumb"><img src="images/Loading Page.jpg" alt="EVSU loading screen interface"></div>
-              <div>
-                <h3>EVSU IHCI Loading Page</h3>
-                <small>Role: Assistant Developer • Tools: Visual Basic</small>
-                <p class="muted"><strong>Description:</strong> A professional loading screen for the EVSU IHCi Project with a dark tech-inspired theme and red accent highlights. Features the Eastern Visayas State University logo with animated loading bar, creating a polished system-startup experience.</p>
-              </div>
-            </article>
-
-            <article class="proj card">
-              <div class="thumb"><img src="images/Syllabus Repository Management System.jpg" alt="Syllabus management system dashboard"></div>
-              <div>
-                <h3>Syllabus Repository Management System v1</h3>
-                <small>Role: Developer • Tools: Python, Tkinter</small>
-                <p class="muted"><strong>Description:</strong> A comprehensive dark-themed syllabus repository manager for EVSU Ormoc, featuring secure authentication, centralized dashboard for viewing and searching course syllabi, and an intuitive upload form. Streamlines academic document management for faculty and students.</p>
-              </div>
-            </article>
+          <nav id="navMenu">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="controls">
+            <button
+              id="themeBtn"
+              class="btn"
+              title="Toggle dark / light"
+              aria-label="Toggle theme"
+            >
+              <span id="themeIcon" class="sun"></span>
+            </button>
+            <button id="menuToggle" class="btn" aria-label="Toggle menu">
+              <span class="material-symbols-outlined"> more_horiz </span>
+            </button>
+            <a class="btn" href="#contact">Get in touch</a>
           </div>
         </div>
-      </section>
+      </header>
 
-      <section id="contact">
-        <div class="card">
-          <h2>Contact</h2>
-          <p class="muted">I'd love to hear from you! Fill out the form below or email me directly at <strong>sharonrose.ballera@evsu.edu.ph</strong></p>
+      <main>
+        <section id="home" class="hero">
+          <div class="intro card">
+            <p class="tag">Eastern Visayas State University | IT Student</p>
+            <h1>Hi — I'm <span id="name">Sharon Rose B. Ballera</span></h1>
+            <p class="lead">
+              I'm learning how to build small web apps and responsive websites.
+              Currently learning modern JavaScript and deployment workflows.
+            </p>
+            <p class="quote">
+              "Even when you failed, at least you tried. Stop underestimating
+              the potential you carry within you."
+            </p>
 
-          <form id="contactForm">
-            <div class="form-row">
+            <div
+              style="
+                margin-top: 16px;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                flex-wrap: wrap;
+              "
+            >
+              <a class="btn" href="#projects">See projects</a>
+              <a class="btn" href="#about">About me</a>
+            </div>
+          </div>
+
+          <div class="photo">
+            <div class="frame">
+              <img
+                src="images/profile.jpg"
+                alt="Sharon Rose Ballera professional photo"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="about">
+          <div class="card">
+            <h2>About Me</h2>
+            <div class="about-grid">
               <div>
-                <label for="nameField">Name</label>
-                <input id="nameField" name="name" placeholder="Your full name" required aria-label="Your name">
+                <p><strong>Education:</strong></p>
+                <p>
+                  🌸 Albuera North Central School | 2012 - 2018<br />
+                  🌸 Dr. Geronimo B. Zaldivar Memorial School of Fisheries |
+                  2018 - 2021<br />
+                  🌸 Seguinon Stand Alone Senior High School | 2021 - 2024<br />
+                  <em>
+                    — With Honors | STEM 11<br />
+                    — Service Award | STEM 11<br />
+                    — With Honors | STEM 12<br />
+                    — BSP Service Award | STEM 12 </em
+                  ><br />
+                  🌸 Eastern Visayas State University | Present<br />
+                  <em
+                    >— Bachelor of Science in Information Technology | 2nd
+                    Year</em
+                  >
+                </p>
+                <p>
+                  <strong>Technical Interests:</strong> I'm excited to create
+                  and learn more about web development, networking fundamentals,
+                  database design, cybersecurity principles, and automation. I
+                  enjoy learning new tech tips and applying them to solve
+                  related problems.
+                </p>
               </div>
               <div>
-                <label for="emailField">Email</label>
-                <input id="emailField" name="email" type="email" placeholder="you@example.com" required aria-label="Your email">
+                <p>
+                  <strong>Hobbies:</strong> Reading books (fiction, Sci-Fi) and
+                  tech blogs, Minecrft, videography, learning musical
+                  instruments, exploring science topics, and astrology.
+                </p>
+                <p><strong>Leadership & Activities:</strong></p>
+                <p>
+                  🌸 UNITS Public Information Officer | 1st Year<br />
+                  🌸 JPCS 2nd Year Representative | 2nd Year<br />
+                  🌸 Boy Scout of the Philippines Member | 2023
+                </p>
+                <p>
+                  For me learning something new is hard but according to Bob
+                  Ross "Every talent is a pursued interest"<br />
+                  I believe that in continuous learning and working with people
+                  will help me reach my goal, step by step.
+                </p>
               </div>
             </div>
-            <div style="margin-top:10px">
-              <label for="messageField">Message</label>
-              <textarea id="messageField" name="message" placeholder="Write your message..." required aria-label="Your message"></textarea>
-            </div>
-            <div style="margin-top:12px; display:flex; gap:8px; align-items:center; flex-wrap:wrap">
-              <button type="submit" class="btn1">Send message</button>
-              <div class="muted">Or reach me on <a href="https://github.com/shashawon" target="_blank" rel="noopener">GitHub</a> • <a href="http://www.linkedin.com/in/sharonrose-ballera-b7243b3a1" target="_blank" rel="noopener">LinkedIn</a> • <a href="https://www.facebook.com/shashawon.cute" target="_blank" rel="noopener">Facebook</a></div>
-            </div>
-            <p id="formResult" class="muted" style="margin-top:8px"></p>
-          </form>
-        </div>
-      </section>
+          </div>
+        </section>
 
-      <footer>
-        <p>December — Ballera, Sharon Rose • <span id="year"></span></p>
-      </footer>
-    </main>
-  </div>
-  <script src="script.js"></script>
-</body>
+        <section id="skills">
+          <div class="card">
+            <h2>Skills</h2>
+            <div style="margin-bottom: 16px">
+              <div class="skills">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">Git & GitHub</div>
+                <div class="skill">VSCode</div>
+                <div class="skill soft">Teamwork</div>
+                <div class="skill soft">Problem Solving</div>
+                <div class="skill soft">Communication</div>
+                <div class="skill soft">Adaptability</div>
+              </div>
+            </div>
+            <div style="margin-top: 20px">
+              <h3
+                style="
+                  font-size: 16px;
+                  margin-bottom: 12px;
+                  color: var(--accent);
+                "
+              >
+                Certificates
+              </h3>
+              <div class="certificates-grid">
+                <div class="certificate-item">
+                  <img src="images/WebDev.png" alt="Certificate 1" />
+                </div>
+                <div class="certificate-item">
+                  <img src="images/Python.png" alt="Certificate 2" />
+                </div>
+                <div class="certificate-item">
+                  <img src="images/C.png" alt="Certificate 3" />
+                </div>
+              </div>
+            </div>
+            <p class="muted">
+              <strong>Technical Areas:</strong> Web Development (HTML, CSS,
+              JavaScript), Database Management (MySQL), Computer Networking
+              basics, Linux command-line operations, and Visual Basic
+              programming.
+            </p>
+          </div>
+        </section>
+
+        <section id="projects">
+          <div class="card">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+              <article class="proj card">
+                <div class="thumb">
+                  <img
+                    src="images/signin.png"
+                    alt="Sign-up page interface mockup"
+                  />
+                </div>
+                <div>
+                  <h3>Simple Sign-Up Page</h3>
+                  <small>Role: Developer • Tools: HTML, CSS</small>
+                  <p class="muted">
+                    <strong>Description:</strong> A clean, modern sign-up page
+                    featuring a streamlined registration form with icon-labeled
+                    input fields for first name, email, and password
+                    confirmation. Focused on user experience with clear visual
+                    hierarchy and accessible form design.
+                  </p>
+                </div>
+              </article>
+
+              <article class="proj card">
+                <div class="thumb">
+                  <img
+                    src="images/Loading Page.jpg"
+                    alt="EVSU loading screen interface"
+                  />
+                </div>
+                <div>
+                  <h3>EVSU IHCI Loading Page</h3>
+                  <small>Role: Assistant Developer • Tools: Visual Basic</small>
+                  <p class="muted">
+                    <strong>Description:</strong> A professional loading screen
+                    for the EVSU IHCi Project with a dark tech-inspired theme
+                    and red accent highlights. Features the Eastern Visayas
+                    State University logo with animated loading bar, creating a
+                    polished system-startup experience.
+                  </p>
+                </div>
+              </article>
+
+              <article class="proj card">
+                <div class="thumb">
+                  <img
+                    src="images/Syllabus Repository Management System.jpg"
+                    alt="Syllabus management system dashboard"
+                  />
+                </div>
+                <div>
+                  <h3>Syllabus Repository Management System v1</h3>
+                  <small>Role: Developer • Tools: Python, Tkinter</small>
+                  <p class="muted">
+                    <strong>Description:</strong> A comprehensive dark-themed
+                    syllabus repository manager for EVSU Ormoc, featuring secure
+                    authentication, centralized dashboard for viewing and
+                    searching course syllabi, and an intuitive upload form.
+                    Streamlines academic document management for faculty and
+                    students.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="card">
+            <h2>Contact</h2>
+            <p class="muted">
+              I'd love to hear from you! Fill out the form below or email me
+              directly at <strong>sharonrose.ballera@evsu.edu.ph</strong>
+            </p>
+
+            <form id="contactForm">
+              <div class="form-row">
+                <div>
+                  <label for="nameField">Name</label>
+                  <input
+                    id="nameField"
+                    name="name"
+                    placeholder="Your full name"
+                    required
+                    aria-label="Your name"
+                  />
+                </div>
+                <div>
+                  <label for="emailField">Email</label>
+                  <input
+                    id="emailField"
+                    name="email"
+                    type="email"
+                    placeholder="you@example.com"
+                    required
+                    aria-label="Your email"
+                  />
+                </div>
+              </div>
+              <div style="margin-top: 10px">
+                <label for="messageField">Message</label>
+                <textarea
+                  id="messageField"
+                  name="message"
+                  placeholder="Write your message..."
+                  required
+                  aria-label="Your message"
+                ></textarea>
+              </div>
+              <div
+                style="
+                  margin-top: 12px;
+                  display: flex;
+                  gap: 8px;
+                  align-items: center;
+                  flex-wrap: wrap;
+                "
+              >
+                <button type="submit" class="btn1">Send message</button>
+                <div class="muted">
+                  Or reach me on
+                  <a
+                    href="https://github.com/shashawon"
+                    target="_blank"
+                    rel="noopener"
+                    >GitHub</a
+                  >
+                  •
+                  <a
+                    href="http://www.linkedin.com/in/sharonrose-ballera-b7243b3a1"
+                    target="_blank"
+                    rel="noopener"
+                    >LinkedIn</a
+                  >
+                  •
+                  <a
+                    href="https://www.facebook.com/shashawon.cute"
+                    target="_blank"
+                    rel="noopener"
+                    >Facebook</a
+                  >
+                </div>
+              </div>
+              <p id="formResult" class="muted" style="margin-top: 8px"></p>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <p>December — Ballera, Sharon Rose • <span id="year"></span></p>
+        </footer>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
